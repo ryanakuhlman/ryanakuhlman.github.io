@@ -13,7 +13,7 @@ for(var i = 0; i < quote.length; i++) {
 
 for(var i = 0; i < addBlog.length; i++) {
 	addBlog[i].addEventListener("click", function(event) {
-		alert("You added a blog!");
+		modal();
 	});
 }
 
@@ -42,5 +42,7 @@ function cancelComment() {
 	document.getElementById("textArea").value = "";
 }
 
-
+function modal() {
+	alert("You add a modal blog");
+}
 
