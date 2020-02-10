@@ -1,7 +1,7 @@
 # ryanakuhlman.github.io
 
 TODO:
-add new comments to database
-add delete comment feature
-redesign the comments
-redesign the modal
+  1. add new comments to database
+  2. add delete comment feature
+  3. redesign the comments
+  4. redesign the modal
