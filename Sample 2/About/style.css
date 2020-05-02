@@ -1,0 +1,40 @@
+.about {
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.about-image {
+	float: left;
+	width: 50%;
+	height: auto;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+@media screen and (max-width: 600px) {
+	.about-image {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
+.container {
+	margin-top: 0px;
+	padding-top: 70px;
+	color: #fff;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 20px;
+
+}
+@media screen and (max-width: 600px) {
+	.footer {
+		position: relative;
+	}
+}
